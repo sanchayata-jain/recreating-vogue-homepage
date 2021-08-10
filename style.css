@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+}
+
+.vogue-logo {
+    height: 100px;
+    width: 151px;
+}
+
+.nav-one {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-one-right {
+    display: flex;
+}
