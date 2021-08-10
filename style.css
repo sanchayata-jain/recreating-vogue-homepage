@@ -1,23 +1,79 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 body {
     width: 100vw;
+    margin-left: 5%; 
 }
 
 .vogue-logo {
-    height: 100px;
-    width: 151px;
+    height: 56px;
+    width: 212px;
 }
 
 .nav-one {
     display: flex;
     justify-content: space-between;
+    list-style-type: none;
+    background-color: white;
+    position: relative;
+    width:100%;
+    max-height: 30%;
 }
+
 
 .nav-one-right {
     display: flex;
 }
+
+.nav-one-right img {
+    width: 5%;
+    height: auto;
+}
+
+.nav-two {
+    background-color: white;
+    position: relative;
+    width:100%;
+    max-height: 30%;
+}
+
+.nav-two ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: inline;
+    overflow: hidden;
+}
+
+.nav-two li {
+    display: inline-block;
+    margin: 0.5rem;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color:#2D2E2F;
+}
+
+
+.top-stories h2 {
+    text-align: left;
+    
+}
+
+
+.app-left card img{
+    display: flex;
+    justify-self: left;
+    width: 30%;
+
+}
+
+.app-right-left-side card img{
+    display: flex;
+}
+
+
+
+
+
+
+
+
